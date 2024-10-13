@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-modal-footer .ant-btn.border-red-600:hover {
+  background-color: rgb(194, 44, 44) !important; 
+  color: black !important; 
+  border: black !important;
+}
+
+.button-hover-margin {
+  transition: transform 0.3s ease, margin-top 0.3s ease; /* Added transform for smoother effect */
+}
+
+.button-hover-margin:hover {
+  transform: translateY(-5px); /* Use transform instead of margin */
+  margin-top: 20px; /* Optional margin-top on hover */
+}
